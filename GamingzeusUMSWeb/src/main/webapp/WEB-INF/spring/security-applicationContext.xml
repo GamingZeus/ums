@@ -10,4 +10,5 @@
 	<http pattern="/js/**" security="none" />
 	<http pattern="/service/**" security="none" />
 	<http pattern="/cachemanager/**" security="none" />
+	<http pattern="/healthCheck" security="none" />
 </beans:beans>

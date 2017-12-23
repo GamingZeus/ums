@@ -13,7 +13,7 @@
 		<org.springframework.version>4.1.2.RELEASE</org.springframework.version>
 		<org.springframework.security.version>3.2.5.RELEASE</org.springframework.security.version>
 		<GamingzeusBase.version>1.0.0</GamingzeusBase.version>
-		<GamingzeusUMS.version>1.0</GamingzeusPMS.version>
+		<GamingzeusUMS.version>1.0-SNAPSHOT</GamingzeusUMS.version>
 	</properties>
 	<build>
 		<plugins>
@@ -61,7 +61,7 @@
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>cobertura-maven-plugin</artifactId>
-						<version>2.6</version>
+						<version>2.7</version>
 						<configuration>
 							<formats>
 								<format>summaryXml</format>
@@ -82,7 +82,7 @@
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>findbugs-maven-plugin</artifactId>
-						<version>3.0.0</version>
+						<version>3.0.5</version>
 						<configuration>
 							<effort>Max</effort>
 							<threshold>Low</threshold>
